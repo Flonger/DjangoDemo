@@ -2,10 +2,15 @@ from django.db import models
 
 # Create your models here.
 class WeiboUser(models.Model):
+    USER_STATUS= (
+        (0,'删除'),
+        (1,'正常'),
+        (2,'限制用户'),
+    )
     username = models.CharField('用户名', max_length=64)
     password = models.CharField('密码', max_length=256)
     nickname = models.CharField('昵称', max_length=64)
-
+    status = models.SmallIntegerField('用户状态',choices=USER_STATUS,default=1)
     class Meta:
         db_table = 'weibo_user'
 

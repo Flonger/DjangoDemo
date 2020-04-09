@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'proj_use_ide.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'students',
+        'NAME': 'pets_test',
         'USER': 'root',
         'PASSWORD': '911218',
-        'HOST': 'localhost',
+        'HOST': '116.62.101.141',
         'PORT': '3306',
     }
 }

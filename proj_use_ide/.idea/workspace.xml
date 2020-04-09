@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d4eb715-98a5-494a-8aff-ef2546c13439" name="默认更改列表" comment="" />
+    <list default="true" id="4d4eb715-98a5-494a-8aff-ef2546c13439" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_use_ide/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_use_ide/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proj_use_ide/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/proj_use_ide/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weibo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/weibo/models.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +24,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZyC9h2Zqbi4ASzxuE3xmd2Aj2R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/medias/imgs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -89,10 +99,22 @@
       <workItem from="1586245022377" duration="379000" />
       <workItem from="1586245601324" duration="1000" />
       <workItem from="1586245668344" duration="5238000" />
+      <workItem from="1586253339907" duration="6174000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

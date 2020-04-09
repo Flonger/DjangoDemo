@@ -1,3 +1,4 @@
+import json
 import os
 from datetime import datetime
 
@@ -7,11 +8,23 @@ from django.shortcuts import render, render_to_response, redirect
 from django.template import loader
 from django.urls import reverse
 
+from weibo.models import WeiboUser as wUser
 
 
 def index (request):
+    user_list = wUser.objects.all();
+    user = wUser.objects.get(username='admin')
 
-    return HttpResponse('OK')
+    u_list = [];
+    for u in user_list:
+        u_map = {
+            'username':u.username,
+            'nickname':u.nickname,
+            'status':u.status
+        }
+        u_list.append(u_map);
+
+    return HttpResponse(json.dumps(u_list),content_type='application/json')
 
 
 def index_one (request):
